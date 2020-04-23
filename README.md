@@ -14,8 +14,9 @@ The only things required of you are
 - Replace `BROKER_URL` with the IP or URL of the kafka cluster (in the firstProducer.sh file)
 - Replace `TRUSTPASS` with a password that isn't the default  (in the firstProducer.sh file)
 - Replace `bootstrap.servers` with the IP or URL of the kafka cluster (in the client.properties file)
+- run `chmod u+x firstConsumer.sh`
 
-
+After you have done those things just run `./firstConsumer.sh` 
  
 
  
