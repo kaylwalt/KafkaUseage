@@ -10,9 +10,11 @@ This script will make sure that
 
 The only things required of you are
 - Have a file `client.properties` in the same directory as this script with your credentials replacing the ones in this example.
-- Replace `TOPIC` with a topic you have access to
-- Replace `BROKER_URL` with the IP or URL of the kafka cluster
-- Replace `bootstrap.servers` with the IP or URL of the kafka cluster
+- Replace `TOPIC` with a topic you have access to (in the firstProducer.sh file)
+- Replace `BROKER_URL` with the IP or URL of the kafka cluster (in the firstProducer.sh file)
+- Replace `TRUSTPASS` with a password that isn't the default  (in the firstProducer.sh file)
+- Replace `bootstrap.servers` with the IP or URL of the kafka cluster (in the client.properties file)
+
 
  
 
