@@ -20,6 +20,7 @@ The only things required of you are
 
  
 
+##Client Properties File
 ```
 #EXAMPLE client.properties
 bootstrap.servers=X.X.X.X:9092
@@ -32,6 +33,7 @@ sasl.jaas.config=org.apache.kafka.common.security.plain.PlainLoginModule  requir
 retry.backoff.ms=500
 ```
 
+##First Consumer File
 ``` bash
 #!/bin/bash
 
